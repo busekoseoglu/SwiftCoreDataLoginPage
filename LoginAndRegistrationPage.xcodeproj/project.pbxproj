@@ -14,10 +14,11 @@
 		392F1FC727783ED90075A9BD /* Travel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 392F1FC527783ED90075A9BD /* Travel.xcdatamodeld */; };
 		392F1FC927783EDA0075A9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392F1FC827783EDA0075A9BD /* Assets.xcassets */; };
 		392F1FCC27783EDA0075A9BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392F1FCA27783EDA0075A9BD /* LaunchScreen.storyboard */; };
+		392F1FD42778473B0075A9BD /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392F1FD32778473B0075A9BD /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		392F1FB927783ED90075A9BD /* Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		392F1FB927783ED90075A9BD /* LoginAndRegistrationPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAndRegistrationPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		392F1FBC27783ED90075A9BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		392F1FBE27783ED90075A9BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		392F1FC027783ED90075A9BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +27,7 @@
 		392F1FC827783EDA0075A9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		392F1FCB27783EDA0075A9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		392F1FCD27783EDA0075A9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392F1FD32778473B0075A9BD /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,7 @@
 		392F1FBA27783ED90075A9BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				392F1FB927783ED90075A9BD /* Travel.app */,
+				392F1FB927783ED90075A9BD /* LoginAndRegistrationPage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +63,7 @@
 				392F1FBC27783ED90075A9BD /* AppDelegate.swift */,
 				392F1FBE27783ED90075A9BD /* SceneDelegate.swift */,
 				392F1FC027783ED90075A9BD /* ViewController.swift */,
+				392F1FD32778473B0075A9BD /* SignupViewController.swift */,
 				392F1FC227783ED90075A9BD /* Main.storyboard */,
 				392F1FC827783EDA0075A9BD /* Assets.xcassets */,
 				392F1FCA27783EDA0075A9BD /* LaunchScreen.storyboard */,
@@ -73,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		392F1FB827783ED90075A9BD /* Travel */ = {
+		392F1FB827783ED90075A9BD /* LoginAndRegistrationPage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 392F1FD027783EDA0075A9BD /* Build configuration list for PBXNativeTarget "Travel" */;
+			buildConfigurationList = 392F1FD027783EDA0075A9BD /* Build configuration list for PBXNativeTarget "LoginAndRegistrationPage" */;
 			buildPhases = (
 				392F1FB527783ED90075A9BD /* Sources */,
 				392F1FB627783ED90075A9BD /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Travel;
+			name = LoginAndRegistrationPage;
 			productName = Travel;
-			productReference = 392F1FB927783ED90075A9BD /* Travel.app */;
+			productReference = 392F1FB927783ED90075A9BD /* LoginAndRegistrationPage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 392F1FB427783ED80075A9BD /* Build configuration list for PBXProject "Travel" */;
+			buildConfigurationList = 392F1FB427783ED80075A9BD /* Build configuration list for PBXProject "LoginAndRegistrationPage" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				392F1FB827783ED90075A9BD /* Travel */,
+				392F1FB827783ED90075A9BD /* LoginAndRegistrationPage */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +146,7 @@
 			files = (
 				392F1FC127783ED90075A9BD /* ViewController.swift in Sources */,
 				392F1FC727783ED90075A9BD /* Travel.xcdatamodeld in Sources */,
+				392F1FD42778473B0075A9BD /* SignupViewController.swift in Sources */,
 				392F1FBD27783ED90075A9BD /* AppDelegate.swift in Sources */,
 				392F1FBF27783ED90075A9BD /* SceneDelegate.swift in Sources */,
 			);
@@ -345,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		392F1FB427783ED80075A9BD /* Build configuration list for PBXProject "Travel" */ = {
+		392F1FB427783ED80075A9BD /* Build configuration list for PBXProject "LoginAndRegistrationPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				392F1FCE27783EDA0075A9BD /* Debug */,
@@ -354,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		392F1FD027783EDA0075A9BD /* Build configuration list for PBXNativeTarget "Travel" */ = {
+		392F1FD027783EDA0075A9BD /* Build configuration list for PBXNativeTarget "LoginAndRegistrationPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				392F1FD127783EDA0075A9BD /* Debug */,
